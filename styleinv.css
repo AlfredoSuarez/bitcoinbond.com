@@ -11,6 +11,9 @@ body {
 
 body {
   background-color: #542be9d0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Aquí comienza mi Header + Logo + Nav */
@@ -84,8 +87,12 @@ main {
   border-radius: 10px;
 }
 
-.investor_section img {
+a img {
   max-width: 500px;
+}
+
+.investor_section img {
+  max-width: 844px;
 }
 
 /* Uso la fuente Roboto de Google Fonts en todas las P */

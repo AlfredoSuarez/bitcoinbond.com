@@ -11,6 +11,9 @@ body {
 
 body {
   background-color: #542be9d0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Aquí comienza mi Header + Logo + Nav */
@@ -85,6 +88,10 @@ main {
 }
 
 .investor_section img {
+  max-width: 844px;
+}
+
+a img {
   max-width: 500px;
 }
 
